@@ -1,0 +1,35 @@
+{
+  "resultado": true,
+  "mensaje": "Datos 1",
+  "datos": [
+    {
+      "id": "2",
+      "referencia": "3MCACCAC016",
+      "sku": "WR209MB",
+      "nombre": "Descansa Munecas 3M Negro de Espuma para Teclado 1 Pza",
+      "stock": "38",
+      "precio": "793.140400",
+      "precio_oferta": "793.140400",
+      "precio_sin_oferta": "793.140400",
+      "oferta": false,
+      "moneda": "MXN",
+      "marca_id": "3M",
+      "marca_nombre": "3M",
+      "subcategoria_id": "17",
+      "subcategoria_nombre": "Articulos de Oficina y Mobiliario",
+      "almacenes": [
+        { "stock": 0, "almacen": "GUADALAJARA", "almacen_clave": "GD" },
+        { "stock": 0, "almacen": "LEON", "almacen_clave": "LG" },
+        { "stock": 0, "almacen": "MERIDA", "almacen_clave": "MD" },
+        { "stock": 0, "almacen": "MEXICO", "almacen_clave": "MX" },
+        { "stock": 38, "almacen": "MONTERREY", "almacen_clave": "MY" },
+        { "stock": 0, "almacen": "Queretaro", "almacen_clave": "QR" },
+        { "stock": 0, "almacen": "Veracruz", "almacen_clave": "VR" },
+        { "stock": 0, "almacen": "CIUDAD JUAREZ", "almacen_clave": "CJ" },
+        { "stock": 0, "almacen": "HERMOSILLO", "almacen_clave": "HE" },
+        { "stock": 0, "almacen": "PUEBLA", "almacen_clave": "PB" },
+        { "stock": 0, "almacen": "SALTILLO", "almacen_clave": "SA" }
+      ]
+    }
+  ]
+}

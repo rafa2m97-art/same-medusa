@@ -1,0 +1,25 @@
+{
+  "resultado": true,
+  "mensaje": "Datos 1",
+  "datos": [
+    {
+      "clave": "CH",
+      "nombre": "CHIHUAHUA",
+      "direccion": {
+        "calle": "Heroico Colegio Militar",
+        "numero exterior": "3705",
+        "numero interior": "Bodega B",
+        "colonia": "Nombre de Dios",
+        "codigo postal": "31150",
+        "ciudad": "Chihuahua",
+        "estado": "Chihuahua"
+      },
+      "tranportistas": [
+        { "clave": "ESTT", "nombre": "ESTAFETA (TARIMA) " },
+        { "clave": "GPCL", "nombre": "GUIA PAGADA POR CLTE " },
+        { "clave": "MDHL", "nombre": "DHL " },
+        { "clave": "MEXP", "nombre": "MENSAJERIA EXPRESS " }
+      ]
+    }
+  ]
+}

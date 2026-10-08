@@ -1,0 +1,22 @@
+{
+  "_source": "Auditoria_Inconsistencias_API_Exel_2026-09-16.xlsx, hoja 'Almacenes contradictorios', fila 1 de 2284 productos reales afectados ese día. Verificado por SSH 2026-10-02.",
+  "_realProduct": "Adhesivo 3M Aerosol Spray Mount 290 gr Pieza (SKU proveedor 6065, referencia 3MPADHAB001)",
+  "row": {
+    "supplierSku": "6065",
+    "supplierReference": "3MPADHAB001",
+    "catalogTotal": 558,
+    "warehouseReadings": [
+      { "warehouseExternalCode": "GD", "quantity": 0 },
+      { "warehouseExternalCode": "GD", "quantity": 12 },
+      { "warehouseExternalCode": "MX", "quantity": 0 },
+      { "warehouseExternalCode": "MX", "quantity": 546 },
+      { "warehouseExternalCode": "MY", "quantity": 0 },
+      { "warehouseExternalCode": "MY", "quantity": 0 }
+    ],
+    "knownWarehouseCodes": ["GD", "MX", "MY", "TR"]
+  },
+  "expected": {
+    "action": "QUARANTINE",
+    "conflictType": "CONFLICTING_WAREHOUSE_VALUES"
+  }
+}

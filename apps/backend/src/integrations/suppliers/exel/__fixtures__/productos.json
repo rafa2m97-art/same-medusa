@@ -1,0 +1,52 @@
+{
+  "resultado": true,
+  "mensaje": "Datos 2",
+  "datos": [
+    {
+      "id": "8",
+      "referencia": "3MPBADAB001",
+      "sku": "680-5",
+      "codigo_barras": "021200666971",
+      "codigo_sat": "55121616",
+      "nombre": "Banderitas 3M 680 Post It Amarillo 12 Piezas c/50 Hojas c/u",
+      "descripcion_extendida": "",
+      "stock": "84",
+      "precio": "382.533200",
+      "precio_oferta": "382.533200",
+      "precio_sin_oferta": "405.953600",
+      "oferta": true,
+      "moneda": "MXN",
+      "marca_id": "3M",
+      "marca_nombre": "3M",
+      "familia_id": "BADAB",
+      "familia_nombre": "BANDERITAS",
+      "subcategoria_id": "11",
+      "subcategoria_nombre": "Hojas Notas y Formatos",
+      "categoria_id": "17",
+      "categoria_nombre": "Oficina y Escolar"
+    },
+    {
+      "id": "2",
+      "referencia": "3MCACCAC016",
+      "sku": "WR209MB",
+      "codigo_barras": "",
+      "codigo_sat": "",
+      "nombre": "Descansa Munecas 3M Negro de Espuma para Teclado 1 Pza",
+      "descripcion_extendida": "",
+      "stock": "0",
+      "precio": "793.140400",
+      "precio_oferta": "793.140400",
+      "precio_sin_oferta": "793.140400",
+      "oferta": false,
+      "moneda": "MXN",
+      "marca_id": "3M",
+      "marca_nombre": "3M",
+      "familia_id": "",
+      "familia_nombre": "",
+      "subcategoria_id": "17",
+      "subcategoria_nombre": "Articulos de Oficina y Mobiliario",
+      "categoria_id": "17",
+      "categoria_nombre": "Oficina y Escolar"
+    }
+  ]
+}

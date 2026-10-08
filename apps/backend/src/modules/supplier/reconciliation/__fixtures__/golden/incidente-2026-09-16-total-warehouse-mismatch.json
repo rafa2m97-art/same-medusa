@@ -1,0 +1,21 @@
+{
+  "_source": "Auditoria_Inconsistencias_API_Exel_2026-09-16.xlsx, hoja 'Total vs desglose almacen', fila 1 de 124 productos reales afectados ese día (idéntico a source_rows.json). Verificado por SSH 2026-10-02.",
+  "_realProduct": "Descansa Muñecas 3M Negro de Espuma para Teclado 1 Pza (SKU proveedor WR209MB, referencia 3MCACCAC016)",
+  "_note": "DIFERENCIA DELIBERADA vs. producción real: ver reconciliation/classify-conflicts.ts. En este caso específico (total>0, almacenes=0) producción YA manda a QUARANTINE hoy (SOURCE_CONFLICT_TOTAL_VS_LOCATIONS) -- este caso coincide con el comportamiento real.",
+  "row": {
+    "supplierSku": "WR209MB",
+    "supplierReference": "3MCACCAC016",
+    "catalogTotal": 1,
+    "warehouseReadings": [
+      { "warehouseExternalCode": "GD", "quantity": 0 },
+      { "warehouseExternalCode": "MX", "quantity": 0 },
+      { "warehouseExternalCode": "MY", "quantity": 0 },
+      { "warehouseExternalCode": "TR", "quantity": 0 }
+    ],
+    "knownWarehouseCodes": ["GD", "MX", "MY", "TR"]
+  },
+  "expected": {
+    "action": "QUARANTINE",
+    "conflictType": "TOTAL_WAREHOUSE_MISMATCH"
+  }
+}
