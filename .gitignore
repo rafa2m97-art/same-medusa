@@ -83,7 +83,9 @@ temp/
 *.sqlite
 *.sqlite3
 *.db
-*.sql
+*-dump.sql
+dump*.sql
+*.sql.gz
 *.dump
 *.backup
 *.bak
