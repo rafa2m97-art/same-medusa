@@ -13,11 +13,15 @@ interfaces; la implementación concreta se inyecta por configuración.
   carpeta hermana aquí, nunca un cambio al dominio.
 - `payments/mitec/` — Etapa 10. El cliente TypeScript de MITEC ya está construido y
   verificado contra la red real en
-  `/home/rmontanez97/Escritorio/TIENDA_SAME/same-pay-reference/typescript-port/` — se
+  `same-pay-reference/typescript-port/ (referencia externa no incluida en este repositorio)` — se
   mueve aquí envuelto como Medusa Payment Provider Module.
 - `fulfillment/envia/` — Etapa 8. Cliente TypeScript de Envia (pendiente de construir),
   envuelto como Medusa Fulfillment Provider Module.
+- `erp/sap/` — Etapa 11 (preparación, 2026-10-03; sin implementar todavía). Futuro
+  `SAPAdapter`, implementación concreta de `ERPAdapter`. Ver su propio README para las
+  reglas duras (nunca SQL directo para escritura, nunca credenciales en el repo,
+  subfase on-site separada para discovery antes de cualquier integración real).
 
 Nada en esta carpeta debe usar credenciales reales todavía (Etapa 1-9 trabajan con
-fixtures/sandbox). Ver plan completo:
-`/home/rmontanez97/.claude/plans/tengo-una-idea-loca-bubbly-kahan.md`.
+fixtures/sandbox; SAP ni siquiera se conecta hasta la Etapa 11, on-site). Ver plan
+completo: `README.md (raíz del repositorio; roadmap resumido, plan detallado externo no incluido)`.
